@@ -14,6 +14,11 @@
     box-shadow: 3px 4px 5px 0 rgba(104, 104, 104, 0.75);
 }
 
+select {
+    font: 11px/0 'Arial', sans-serif;
+    text-align: center;
+}
+
 .conteiner1 {
     width: 412px;
     height: 133px;
@@ -55,7 +60,7 @@
 }
 
 .mark-auto {
-    margin-top: 0;
+    margin-top: 2px;
     margin-left: -2px;
 }
 
@@ -131,6 +136,10 @@
     font-family:  "Arial", sans-serif;
 }
 
+.marks-auto {
+    margin-top: 3px;
+}
+
 .models-auto {
     margin-top: 9px;
 }
@@ -202,18 +211,29 @@
     margin-top: 6px;
 }
 
+.size {
+    left: 0;
+    top: 4px;
+    position: relative;
 
+}
 
 .size-radius {
-    width: 52px;
-    height: 20px;
+    width: 51px;
+    height: 17px;
     margin-left: 5px;
 }
 
 .size-width {
     width: 54px;
-    height: 20px;
+    height: 17px;
     margin-left: 2px;
+}
+
+.r-size {
+    top: 1px;
+    left: -1px;
+    position: relative;
 }
 
 .r-radius {
@@ -225,16 +245,17 @@
 
 .radius-size {
     width: 46px;
-    height: 20px;
+    height: 17px;
     margin-left: 2px;
+    margin-top: 6px;
 }
 
 .search {
     display: block;
     float: right;
     font: 12px/13px 'Lucida Sans Unicode', sans-serif;
-    margin-right: 80px;
-    margin-top: -15px;
+    margin-right: 83px;
+    margin-top: 3px;
 }
 
 .search-season {
@@ -330,7 +351,7 @@
 
 .dco {
     display: block;
-    font: 10px/9px 'Lucida Sans Unicode', sans-serif;
+    font: 10px/8px 'Lucida Sans Unicode', sans-serif;
     margin-top: 3px;
     margin-left: 9px;
 }
@@ -338,15 +359,14 @@
 .dco-form {
     width: 58px;
     height: 17px;
-    margin-top: 2px;
+    margin-top: 5px;
     margin-left: 2px;
-    font: 11px/9px 'Lucida Sans Unicode', sans-serif;
 }
 
 .et {
     display: block;
     font: 10px/9px 'Lucida Sans Unicode', sans-serif;
-    margin-top: 8px;
+    margin-top: 7px;
     margin-left: 10px;
 }
 
@@ -355,7 +375,6 @@
     height: 17px;
     margin-top: 2px;
     margin-left: 2px;
-    font: 11px/9px 'Lucida Sans Unicode', sans-serif;
 }
 
 .submit-right {
