@@ -1,0 +1,371 @@
+.banners {
+    height: 160px;
+    position: relative;
+    top: 4px;
+    padding-right: 5px;
+}
+
+.form {
+    float: right;
+    border: 1px solid rgb(156, 156, 157);
+    margin-top: 10px;
+    border-radius: 17px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 4px 5px 0 rgba(104, 104, 104, 0.75);
+}
+
+.conteiner1 {
+    width: 412px;
+    height: 133px;
+}
+
+.auto {
+    display: block;
+    text-align: center;
+    font-size: 0.79em;
+    letter-spacing: 0.06em;
+    font-family: "Arial", serif;
+    color: rgb(21, 68, 103);
+    line-height: 2.333;
+    font-weight: bold;
+    width: 200px;
+    margin-left: 104px;
+    margin-top: -8px;
+}
+
+.disks-form {
+    display: block;
+    text-align: left;
+    float: left;
+    margin-top: -23px;
+    margin-left: 21px;
+
+}
+
+.first-disk {
+    color: rgb(21, 68, 104);
+    font: bold 10px/0 'Arial Black', Arial, sans-serif;
+}
+.mark-auto, .model-auto, .year, .compl {
+    display: block;
+    font-size: 9px;
+    font-family: "Arial", sans-serif;
+    text-align: left;
+    line-height: 0.9em;
+}
+
+.mark-auto {
+    margin-top: 0;
+    margin-left: -2px;
+}
+
+.model-auto {
+    margin-top: 5px;
+    margin-left: -2px;
+}
+
+
+.sp-disk {
+    color: #76848A;
+}
+
+
+.year {
+    margin-top: 3px;
+    margin-left: -2px;
+}
+
+
+.first-select {
+    width: 100px;
+    margin-left: 18px;
+    height: 19px;
+}
+
+.two-select {
+    width: 100px;
+    margin-left: 17px;
+    height: 19px;
+    margin-top: -9px;
+}
+
+.three-select {
+    width: 57px;
+    margin-left: 17px;
+    height: 19px;
+    margin-top: -8px;
+}
+
+.four-select {
+    width: 100px;
+    height: 19px;
+    margin-top: 11px;
+    margin-left: 6px;
+}
+
+.compl {
+    margin-top: -9px;
+    margin-left: -2px;
+}
+
+.tires-form {
+    display: block;
+    float: left;
+    margin-top: -26px;
+    margin-left: 29px;
+    text-align: left;
+}
+
+.first-tires {
+    text-align: right;
+    margin-left: 132px;
+    color: rgb(21, 68, 104);
+    font: bold 10px/0 'Arial Black', Arial, sans-serif;
+}
+
+.marks-auto, .models-auto, .years, .complects {
+    display: block;
+    font-size: 9px;
+    line-height: 0.1em;
+    text-align: left;
+    font-family:  "Arial", sans-serif;
+}
+
+.models-auto {
+    margin-top: 9px;
+}
+
+.years {
+    margin-top: 7px;
+}
+
+.complects {
+    margin-top: -2px;
+}
+
+.five-select {
+    width: 101px;
+    margin-left: 18px;
+    height: 19px;
+    margin-top: 1px;
+}
+
+.six-select {
+    width: 101px;
+    margin-left: 17px;
+    height: 19px;
+    margin-top: -5px;
+}
+
+.seven-select {
+    width: 57px;
+    margin-left: 17px;
+    height: 19px;
+    margin-top: -4px;
+}
+
+.eight-select {
+    width: 101px;
+    margin-left: 6px;
+    height: 19px;
+    margin-top: 4px;
+}
+
+.submit-left {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #60778d;
+    font: italic 14px Arial, sans-serif;
+    text-decoration: underline;
+    margin-top: 4px;
+    margin-left: 148px;
+}
+
+
+.conteiner2 {
+    width: 190px;
+    margin-left: 16px;
+    height: 134px;
+}
+
+.search-tires {
+    color: #144666;
+    font: bold 10px 'Arial Black', Arial, sans-serif;
+    margin-left: 10px;
+}
+
+.center-tires-form {
+    font: 10px/10px 'Lucida Sans Unicode', sans-serif;
+    display: block;
+    margin-left: 12px;
+    margin-top: 6px;
+}
+
+
+
+.size-radius {
+    width: 52px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+.size-width {
+    width: 54px;
+    height: 20px;
+    margin-left: 2px;
+}
+
+.r-radius {
+    display: block;
+    font: 11px/11px Arial, sans-serif;
+    margin-left: 46px;
+    margin-top: 2px;
+}
+
+.radius-size {
+    width: 46px;
+    height: 20px;
+    margin-left: 2px;
+}
+
+.search {
+    display: block;
+    float: right;
+    font: 12px/13px 'Lucida Sans Unicode', sans-serif;
+    margin-right: 80px;
+    margin-top: -15px;
+}
+
+.search-season {
+    font: 10px/10px 'Lucida Sans Unicode', sans-serif;
+    margin-left: 14px;
+}
+
+.submit-center {
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #60778d;
+    font: italic 14px Arial, sans-serif;
+    text-decoration: underline;
+    margin-top: 25px;
+    margin-left: 122px;
+}
+
+
+.conteiner3 {
+    width: 267px;
+    margin-left: 9px;
+    height: 133px;
+}
+
+.left-right-form {
+    width: 63%;
+}
+
+.disck-search {
+    color: #144666;
+    font: bold 10px 'Arial Black', Arial, sans-serif;
+    margin-left: 10px;
+    letter-spacing: 0.12em;
+}
+
+.disc-search-left {
+    font: 10px/10px 'Lucida Sans Unicode', sans-serif;
+    display: block;
+    margin-left: 18px;
+    margin-top: 0;
+    letter-spacing: 0.05em;
+}
+
+.d-disc {
+    width: 56px;
+    height: 19px;
+    margin-left: 1px;
+    margin-top: 4px;
+}
+
+.quantity{
+    display: block;
+    font: 10px/10px 'Lucida Sans Unicode', sans-serif;
+    margin-top: 2px;
+    margin-left: 17px;
+    letter-spacing: 0.07em;
+}
+
+.holes {
+    float: right;
+    margin-top: -19px;
+    margin-right: 10px;
+    width: 51px;
+    height: 19px;
+}
+
+.diametr-holes {
+    display: block;
+    font: 10px/10px 'Lucida Sans Unicode', sans-serif;
+    margin-top: 1px;
+    margin-left: 17px;
+    letter-spacing: 0.07em;
+}
+
+.holes-d {
+    float: right;
+    width: 59px;
+    height: 19px;
+    margin-top: -28px;
+    margin-right: 3px;
+}
+
+.right-right-form {
+    float: right;
+    width: 90px;
+    display: block;
+    height: 109px;
+    margin-top: -108px;
+    border-left: 1px solid #bdc6ca;
+}
+
+.dco {
+    display: block;
+    font: 10px/9px 'Lucida Sans Unicode', sans-serif;
+    margin-top: 3px;
+    margin-left: 9px;
+}
+
+.dco-form {
+    width: 58px;
+    height: 17px;
+    margin-top: 2px;
+    margin-left: 2px;
+    font: 11px/9px 'Lucida Sans Unicode', sans-serif;
+}
+
+.et {
+    display: block;
+    font: 10px/9px 'Lucida Sans Unicode', sans-serif;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.et-form {
+    width: 58px;
+    height: 17px;
+    margin-top: 2px;
+    margin-left: 2px;
+    font: 11px/9px 'Lucida Sans Unicode', sans-serif;
+}
+
+.submit-right {
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #60778d;
+    font: italic 14px Arial, sans-serif;
+    text-decoration: underline;
+    margin-top: -2px;
+    margin-left: 199px;
+}

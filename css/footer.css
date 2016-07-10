@@ -1,0 +1,72 @@
+.box1 [rel="content"] {
+    padding-bottom: 120px;
+}
+
+.box1 footer {
+    position: absolute;
+    width: 908px;
+    height: 98px;
+    left: 0;
+    bottom: 0;
+}
+
+footer {
+    border: 1px solid rgb(36, 42, 60);
+    background: #213a4d;
+}
+
+.bmenu {
+    position: relative;
+    top: 7px;
+    left: 286px;
+    font-size: 12.4px;
+    font-family: "Arial", sans-serif;
+    line-height: 1.364;
+    display: inline-block;
+    height: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bmenu, .bm1, .bm2, .bm3, .bm4 {
+    padding: 0 12px;
+    color: #bec6c9;
+    display: inline-block;
+    height: 15px;
+}
+
+.bm1 {
+    border-right: 2px solid #bec6c9;
+}
+
+.bm2 {
+    margin-left: 2px;
+    border-right: 2px solid #bec6c9;
+}
+
+.bm3 {
+    margin-left: -2px;
+    border-right: 2px solid #bec6c9;
+}
+
+.bm4 {
+    margin-left: 5px;
+    border: none;
+}
+
+.bmenu > a:hover {
+    color: #4792af;
+}
+
+.copy {
+    position: relative;
+    top: 18px;
+    left: 1px;
+    font-size: 10px;
+    font-family: "Arial", sans-serif;
+    color: rgb(127, 71, 64);
+    line-height: 1.8;
+    text-align: center;
+}

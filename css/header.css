@@ -1,0 +1,303 @@
+body {
+    background: url(../img/bg.png);
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.box {
+    position: relative;
+    width: 1000px;
+    height: 1310px;
+    margin: 0 auto;
+}
+
+.box1 {
+    margin: 0 auto;
+    position: relative;
+    width: 910px;
+    min-height: 100%;
+    height: 1310px;
+}
+
+.clearfix:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.head {
+    position: relative;
+    margin: 0 auto;
+    width: 910px;
+    height: 330px;
+}
+
+.tel {
+    width: 22px;
+    height: 22px;
+    background-image: linear-gradient(90deg, rgb(32, 105, 136) 0%, rgb(17, 65, 101) 59%, rgb(15, 58, 94) 85%, rgb(12, 50, 86) 100%);
+    z-index: 12;
+    border-radius: 50%;
+    margin: 21px 7px;
+}
+
+.contakt {
+    position: relative;
+    font-size: 19px;
+    font-family: "Arial", sans-serif;
+    color: rgb(94, 105, 109);
+    text-align: center;
+    top: -24px;
+    left: -10px;
+}
+
+.prob {
+    margin-left: 2px;
+}
+
+.reg {
+    position: relative;
+    width: 495px;
+    height: 26px;
+    background-image: linear-gradient(rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+    border-radius: 4px;
+    box-shadow: 2px 3px 3px 0 rgba(150, 150, 150, 0.75);
+    top: -51px;
+    left: 314px;
+}
+
+.icon {
+    position: relative;
+    top: 5px;
+    left: 7px;
+}
+
+.login {
+    position: relative;
+    width: 108px;
+    height: 16px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(155, 161, 163);;
+    z-index: 50;
+    top: -2px;
+    left: 7px;
+    font-size: 12px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    color: rgb(151, 162, 166);
+    text-align: left;
+    line-height: 17px;
+    padding-left: 4px;
+    letter-spacing: -1.1px;
+}
+
+.pass {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(155, 161, 163);
+    font-size: 12px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    color: rgb(151, 162, 166);
+    text-align: left;
+    -moz-transform: matrix( 0.87725805647978,0,0,0.909375,0,0);
+    -webkit-transform: matrix( 0.87725805647978,0,0,0.909375,0,0);
+    -ms-transform: matrix( 0.87725805647978,0,0,0.909375,0,0);
+    width: 122px;
+    height: 17px;
+    left: 0;
+    top: -2px;
+    padding-left: 5px;
+    z-index: 90;
+}
+
+.entr {
+    position: relative;
+    background: rgba(12, 13, 14, 0);
+    font-size: 11px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    color: rgb(255, 255, 255);
+    z-index: 30;
+    border: none;
+    border-right: 1px solid #d3d8de;
+    line-height: 1.0;
+    padding: 0 5px;
+    top: -2px;
+    left: -9px;
+    letter-spacing: -.2px;
+    cursor: pointer;
+}
+
+.rg {
+    position: relative;
+    background: rgba(12, 13, 14, 0);
+    border: none;
+    font-size: 11px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    color: rgb(255, 255, 255);
+    z-index: 30;
+    top: -2px;
+    left: -9px;
+    letter-spacing: -.3px;
+    cursor: pointer;
+}
+
+.parol {
+    position: relative;
+    font-size: 12px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    color: rgb(191, 191, 191);
+    line-height: 2.333;
+    top: -2px;
+    left: 6px;
+    text-decoration: none;
+    border-bottom: 1px solid #7c8794;
+    height: 21px;
+    display: inline-block;
+}
+
+.navi {
+    position: relative;
+    width: 76px;
+    height: 20px;
+    border: 1px solid rgb(189, 196, 199);
+    background-color: rgb(255, 255, 255);
+    top: -77px;
+    left: 825px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 0 rgba(218, 222, 223, 0.52);
+}
+
+.home {
+    position: relative;
+    top: -1px;
+    left: 9px;
+}
+
+.map {
+    position: relative;
+    top: 0;
+    left: 13px;
+}
+
+.mail {
+    position: relative;
+    top: -1px;
+    left: 18px;
+}
+
+.banner {
+    position: relative;
+    top: -63px;
+    left: 0;
+}
+
+.panel {
+    position: relative;
+    width: 909px;
+    height: 32px;
+    margin: 0 auto;
+    border: 1px solid rgb(13, 22, 66);
+    border-radius: 4px;
+    background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(44,48,52) 87%, rgb(87,96,104) 100%);
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.75);
+    top: -61px;
+    left: 0;
+}
+
+.menu {
+    position: relative;
+    top: 4px;
+    left: 136px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 13.6px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    color: #a2acb0;
+    line-height: 1.867;
+    text-align: center;
+    -moz-transform: matrix( 0.90909090909091,0,0,0.909375,0,0);
+    -webkit-transform: matrix( 0.90909090909091,0,0,0.909375,0,0);
+    -ms-transform: matrix( 0.90909090909091,0,0,0.909375,0,0);
+    padding: 4px 10px;
+}
+
+.oplata {
+    margin-left: 4px;
+}
+
+.dost {
+    margin-left: 6px;
+}
+
+.stat {
+    margin-left: 2px;
+}
+
+.kont {
+    margin-left: 5px;
+}
+
+.menu > a:hover{
+    color: #ffffff;
+    background-image: linear-gradient( 90deg, rgb(32,105,136) 0%, rgb(17,65,101) 59%, rgb(15,58,94) 85%, rgb(12,50,86) 100%);
+    width: 127px;
+    height: 26px;
+    border-radius: 50px;
+}
+
+.bag {
+    position: relative;
+    top: -17px;
+    left: 682px;
+}
+
+.bags  {
+    position: relative;
+    font-size: 11px;
+    font-family: "Arial", sans-serif;
+    color: rgb(146, 155, 159);
+    line-height: 1.2;
+    z-index: 100;
+    top: -22px;
+    left: 685px;
+    letter-spacing: .05em;
+}
+
+.bags::after{
+    content: "0";
+    font-size: 12px;
+    font-family: "Arial", sans-serif;
+    color: rgb(13, 90, 143);
+    line-height: 1.2;
+    text-align: left;
+    top: 1px;
+    left: 1px;
+    position: relative;
+}
+
+.cash {
+    position: relative;
+    font-size: 11px;
+    font-family: "Arial", sans-serif;
+    color: rgb(146, 155, 159);
+    line-height: 1.2;
+    z-index: 100;
+    top: -22px;
+    left: 700px;
+    letter-spacing: .062em;
+}
+
+.cash::after{
+    content: "0,00 грн.";
+    font-size: 12px;
+    font-family: "Arial", sans-serif;
+    color: rgb(13, 90, 143);
+    line-height: 1.2;
+    text-align: left;
+    top: 1px;
+    left: 11px;
+    position: relative;
+}
